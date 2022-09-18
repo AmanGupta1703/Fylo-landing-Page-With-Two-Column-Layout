@@ -1,0 +1,209 @@
+@import "base";
+
+/* **Mobile Design** */
+// Mobile Design
+@media (max-width: 786px) {
+  // WEBSITE-LOGO-NAVIGATION-LINKS
+  #website-logo_nav-links {
+    padding: 8% 5% 0;
+
+    .logo {
+      width: 6rem;
+    }
+
+    .nav-item {
+      gap: 1.1rem;
+      
+      .nav-links {
+        font-size: .8rem;
+      }
+    }
+
+  }
+
+  // DESCRIPTION
+  #description {
+    padding: 0 8%;
+    margin-top: 3rem;
+    flex-direction: column;
+
+    // BANNER
+    .des-banner {
+      justify-content: center;
+
+      .banner-img {
+        width: 18rem;
+      }
+    }
+
+    // TEXT-CONTENT
+    .des-text-content {
+      align-items: center;
+      text-align: center;
+
+      .big-heading {
+        font-size: 1.3rem;
+      }
+
+      .text {
+        font-size: .92rem;
+        font-weight: $fw-primary;
+        width: 22rem;
+      }
+
+      .user-email-form {
+        flex-direction: column;
+
+        .btn {
+          width: 20rem;
+          padding: 3% 4%;
+        }
+      }
+    }
+  }
+
+  // Product Info
+  #product-info {
+    padding: 10% 8%;
+    flex-direction: column;
+    margin-top: 1.5rem;
+
+    // banner
+    .product-banner {
+      justify-content: center;
+
+      img {
+        width: 18rem;
+      }
+    }
+
+    // text-content
+    .product-info-text-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 2rem 0 0;
+
+      .info-heading {
+        font-weight: $fw-secondary;
+        font-size: 1rem;
+      }
+
+      .info-text {
+        font-size: 0.9rem;
+        width: 22rem;
+      }
+
+      .fylo-help-link {
+        a {
+          font-size: 0.9rem;
+        }
+      }
+
+      .card {
+        width: 21rem;
+
+        .card-heading {
+          img {
+            width: 1.3rem;
+          }
+
+          .card-body {
+            .card-text {
+                font-weight: $fw-primary;
+              font-size: 0.5rem;
+            }
+          }
+        }   
+      }
+    }
+
+  }
+
+  // SUBSCRIPTION
+  #subscription {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 6% 8%;
+
+
+    // text content
+    .subs-text-content {
+      text-align: center;
+      margin: 3rem 0 0;
+
+      .subs-heading {
+        font-size: 1.1rem;
+        font-weight: $fw-secondary;
+        margin: 0 0 1rem;
+    }
+    
+    .subs-text {
+        font-size: 1rem;
+        font-weight: $fw-primary;
+        width: 22rem;
+        margin-top: 1rem;
+      }
+    }
+
+    // form
+    .user-data {
+      margin-bottom: 3rem;
+      .subs-form {
+        #email-id {
+          width: 18rem;
+        }
+      }
+
+      .btn {
+        width: 18rem;
+        padding: 4% 6%;
+      }
+    }
+  }
+
+  #footer {
+    flex-direction: column;
+    padding: 0 8%;
+
+    .footer-web-logo_contact-info {
+      align-items: flex-start;
+      margin-top: 2rem;
+      padding-left: .5rem;
+      width: 100%;
+    }
+
+    .footer-nav {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0;
+      width: 100%;
+
+      .footer-nav-item {
+        margin-top: 2rem;
+        padding-left: .5rem;
+      }
+    }
+
+    // social media item
+    .social-media-links {
+      margin: 3rem 0;
+
+      .media-item {
+        .media-icon {
+          font-size: 0.8rem;
+          padding: .5rem .6rem;
+        }
+      }
+    }
+  }
+
+  .flex-order-1 {
+    order: 1;
+  }
+
+  .flex-order-2 {
+    order: 2;
+  }
+}

@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+#website-logo_nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 4%;
+}
+#website-logo_nav-links .logo {
+  width: 10rem;
+}
+#website-logo_nav-links .nav-item {
+  display: flex;
+  gap: 4rem;
+}
+#website-logo_nav-links .nav-item .header-links {
+  color: hsl(0deg, 0%, 75%);
+  text-decoration: none;
+}
+#website-logo_nav-links .nav-item .header-links .nav-links {
+  list-style: none;
+}
+
+#description {
+  display: flex;
+  padding: 0 4%;
+}
+#description .des-text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#description .des-text-content .big-heading {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.9rem;
+}
+#description .des-text-content .text {
+  color: hsl(243deg, 87%, 12%);
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 1rem 0;
+  width: 40rem;
+}
+#description .des-text-content .user-email-form {
+  display: flex;
+  gap: 1rem;
+}
+#description .des-text-content .user-email-form input[type=email] {
+  padding: 2% 3%;
+  width: 20rem;
+}
+#description .des-text-content .user-email-form .btn {
+  color: hsl(240deg, 75%, 98%);
+  border: none;
+  background-color: hsl(224deg, 93%, 58%);
+  width: 1rem;
+  outline: none;
+}
+#description .des-banner {
+  width: 40rem;
+}/*# sourceMappingURL=index.css.map */
